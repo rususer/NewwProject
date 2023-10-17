@@ -1,0 +1,288 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #F8F8F8 url(Шапка.jpeg) repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2D2D2D;
+}
+
+h2 {
+	padding: 0px 0px 30px 0px;
+	font-size: 2.50em;
+}
+
+p, ol, ul {
+	margin-top: -30px;
+}
+
+p {
+	padding: 10px;
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: rgba(0,0,0,.8);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+	.image
+	{
+		display: inline-block;
+		border: 1px solid rgba(0,0,0,.1);
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 3em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+
+hr {
+	display: none;
+}
+
+/** отступы по бокам */
+
+#wrapper {
+	background: rgb(131, 49, 49);
+	margin: 0px 20px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** шапка */
+
+#header-wrapper
+{
+	background: url(images/Шапка.jpeg) no-repeat center center;
+	background-size: cover;
+}
+
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+}
+
+#social
+{
+	position: absolute;
+	top: 4em;
+	right: 0;
+}
+
+
+
+/** горизонтальное меню навигации */
+
+#menu {
+	overflow: hidden;
+	background: #101010;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.5);
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+#menu .current_page_item a {
+}
+
+#menu .last {
+	border-right: none;
+}
+
+/** страница */
+
+#page {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+	#page img
+	{
+		margin-bottom: 1em;
+	}
+
+	#page .title
+	{
+		margin-bottom: 2em;
+	}
+
+	#page .title h2
+	{
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+	}
+	
+	#page .title .byline
+	{
+		display: block;
+		padding-bottom: 2em;
+		color: rgba(0,0,0,0.7);
+	}
+
+/** Контент */
+
+#content {
+	float: left;
+	width: 800px;
+	padding-right: 50px;
+	border-right: 1px solid #E6E7DC;
+}
+
+#content .post-title
+{
+	margin-bottom: 2em;
+}
+
+#content .post-title h2
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+#content .post
+{
+	margin-bottom: 4em;
+	padding-bottom: 4em;
+	border-bottom: 1px solid #E6E7DC;
+}
+
+/** SIDEBAR 1 */
+
+#sidebar1 {
+	float: right;
+	width: 250px;
+	margin-right: 50px;
+}
+
+#sidebar1 #box1 {
+	margin-bottom: 4em;
+}
+
+#sidebar1 h2,
+#sidebar2 h2
+{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+/** SIDEBAR 2 */
+
+#sidebar2 {
+	float: right;
+	width: 250px;
+}
+
+
+/* List style 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 10px 0px 15px 0px;
+	border-top: 1px solid #E6E7DC;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+
+
+
+
+
+
+
+	
+
